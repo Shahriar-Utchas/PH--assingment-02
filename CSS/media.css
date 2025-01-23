@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+  .nav-items {
+    display: none;
+  }
+  nav ul {
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  nav button {
+    display: none;
+  }
+  hr {
+    display: block;
+  }
+  .nav-menu {
+    display: block;
+    margin-right: 20px;
+  }
+}
