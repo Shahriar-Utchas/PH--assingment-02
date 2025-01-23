@@ -48,3 +48,15 @@
     width: 100%;
   }
 }
+/* footer */
+@media screen and (max-width: 576px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+}
