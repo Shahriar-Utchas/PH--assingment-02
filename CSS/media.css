@@ -1,3 +1,4 @@
+/* Nav-bar */
 @media screen and (max-width: 576px) {
   .nav-items {
     display: none;
@@ -15,5 +16,35 @@
   .nav-menu {
     display: block;
     margin-right: 20px;
+  }
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+  .hero-about {
+    margin-right: 200px;
+  }
+}
+/* Hero-Content */
+@media screen and (max-width: 576px) {
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+  .hero-about {
+    margin-right: 200px;
+  }
+  .sm-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .hero-text .sm-h1 {
+    font-size: 1.3rem;
+    width: 100%;
   }
 }
