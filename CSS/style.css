@@ -36,6 +36,13 @@ nav button {
 .nav-items a {
   text-decoration: none;
 }
+.nav-items a:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+.nav-button :hover {
+  color: white;
+}
 .btn-org {
   background-color: orange;
   border: none;
@@ -70,6 +77,11 @@ hr {
   cursor: pointer;
   height: 40px;
 }
+.btn-black:hover {
+  background-color: orange;
+  color: black;
+}
+
 .curriculum {
   background-image: url("../images/bg.png");
   background-size: cover;
@@ -83,6 +95,13 @@ hr {
   gap: 40px;
   padding: 40px;
 }
+.curr-link {
+  width: 30%;
+}
+.curr-link:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
 .card {
   background: #fff;
   padding: 20px;
@@ -91,6 +110,15 @@ hr {
   text-align: center;
   height: 100%;
 }
+.kinder,
+.elementary,
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .kinder {
   background: linear-gradient(#def5ff 10%, #ffffff 100%);
 }
@@ -115,6 +143,9 @@ hr {
   color: white;
   width: 2.5%;
   text-align: center;
+}
+.left-right-arrow i:hover {
+  background-color: black;
 }
 marquee {
   width: 100%; /* Full width of the page */

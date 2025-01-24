@@ -43,7 +43,7 @@
     display: block;
     position: relative;
     right: 50px;
-    width: 200%;
+    width: 180%;
     text-align: center;
     margin: 0 auto;
     line-height: 1.6;
@@ -171,7 +171,16 @@
     flex-direction: column;
   }
   .hero-text .sm-h1 {
+    padding-left: 80px;
     font-size: 1.3rem;
     width: 160%;
+  }
+  .btn-enroll {
+    height: 40px;
+    width: 70%;
+  }
+  .sm-hero-p {
+    right: 0px;
+    width: 150%;
   }
 }
