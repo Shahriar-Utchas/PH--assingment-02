@@ -100,19 +100,69 @@ hr {
 .middle {
   background: linear-gradient(to bottom, #f2e8ff 10%, #ffffff 100%);
 }
+.left-right-arrow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.left-right-arrow i {
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  width: 2.5%;
+  text-align: center;
+}
+marquee {
+  width: 100%; /* Full width of the page */
+}
 .stories {
-  background-image: url("../images/bg.png");
+  background-image: linear-gradient(
+      to top,
+      rgba(239, 195, 119, 0.8),
+      rgba(239, 195, 119, 0)
+    ),
+    url("../images/bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 50px 20px;
   text-align: center;
 }
+
 .story-cards {
   display: flex;
   gap: 40px;
   padding: 40px;
 }
+.story-date1 {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #46d7e4;
+  color: white;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+  right: 150px;
+}
+.story-d2 {
+  display: inline-block;
+  width: 75%;
+  padding: 5px 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #46e4ad;
+  color: white;
+  border-radius: 15px;
+  position: relative;
+  bottom: 15px;
+}
+
 .story-flex2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -122,10 +172,7 @@ hr {
 .story-flex2 img {
   width: 100%;
 }
-.story-flex2 p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
+
 .story-card {
   background: #fff;
   padding: 20px;
